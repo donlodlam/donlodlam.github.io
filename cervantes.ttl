@@ -12,7 +12,8 @@
     foaf:nationality 'Spanish';
     foaf:gender 'Male';
     eac-cpf:bloghist 'Miguel de Cervantes Saavedra was a Spanish writer, novelist, poet, playwright and military man. He is universally known for being the ahe novel Don Quixote of La Mancha, one of the masterpieces of world literature of all time.';
-    eac-cpf:occupation 'Writer'.
+    eac-cpf:occupation 'Writer';
+    owl:differentFrom: 'https://viaf.org/viaf/122743603/'.
 
 
 
