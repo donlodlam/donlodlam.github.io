@@ -4,7 +4,7 @@
 @prefix geo: <https://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix wn: <http://www.w3.org/2006/03/wn/wn20/schema/>.
 
-<http://google.com>
+<http://donlodlam.github.io/la%20mancha%20code.ttl>
 	locn:geographicName "La Mancha";
 	gn:countryCode "ES";
 	geo:lat "39°52";
