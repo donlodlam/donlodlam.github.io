@@ -1,0 +1,13 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <https://lov.linkeddata.es/dataset/lov/vocabs/dcterms>.
+@prefix prv: <https://www.loc.gov/marc/relators/relaterm.html>.
+@prefix crm: <http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html>.
+
+
+<http://google.com> 
+    rdf:label 'Journey for justice';
+    crm:P2_has_type 'Concept'; 
+    prv:performed_by 'Don quixote, Sancho Panza';
+    dcterms:location 'La Mancha'.
+
