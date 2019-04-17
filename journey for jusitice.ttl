@@ -5,7 +5,7 @@
 @prefix crm: <http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html>.
 
 
-<http://google.com> 
+<http://https://donlodlam.github.io/journey%20for%20jusitice.ttl> 
     rdf:label 'Journey for justice';
     crm:P2_has_type 'Concept'; 
     prv:performed_by 'Don quixote, Sancho Panza';
