@@ -1,7 +1,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix eac-cpf: <https://eac.staatsbibliothek-berlin.de/>.
-<http://google.com> 
+<https://donlodlam.github.io/cervantes.ttl> 
     rdf:type 'Person';
     foaf:birthdate '29 September 1547';
     foaf:birthPlace 'Alcalá de Hanares';
@@ -12,7 +12,8 @@
     foaf:nationality 'Spanish';
     foaf:gender 'Male';
     eac-cpf:bloghist 'Miguel de Cervantes Saavedra was a Spanish writer, novelist, poet, playwright and military man. He is universally known for being the ahe novel Don Quixote of La Mancha, one of the masterpieces of world literature of all time.';
-    eac-cpf:occupation 'Writer'.
+    eac-cpf:occupation 'Writer';
+    owl:differentFrom: 'https://viaf.org/viaf/122743603/'.
 
 
 
