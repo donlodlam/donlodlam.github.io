@@ -51,15 +51,10 @@
 }
 
 .main p:nth-of-type(4){
-	-moz-column-count: 3;
 	-moz-column-gap: 15px;
-	-o-column-count: 3;
 	-o-column-gap: 15px;
-	-ms-column-count: 3;
 	-ms-column-gap: 15px;
-	-webkit-column-count: 3;
 	-webkit-column-gap: 15px;
-	column-count: 3;
 	column-gap: 15px;
 }
 
