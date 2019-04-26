@@ -208,6 +208,70 @@
 <li style="font-weight: 400;"><strong>Journey for Justice&rsquo;s graph visualization:</strong> <a href="http://tinyurl.com/yxoprs9w color: blue"><span style="font-weight: 400; color: blue">http://tinyurl.com/yxoprs9w</span></a></li>
 </ol>
 <p><br /><br /></p>
+	<h2>9. Data Connection</h2
+		 
+
+1.  People - Cervantes:  https://donlodlam.github.io/cervantes.tt
+
+ 
+
+ wn:hyponymOf <http://dbpedia.org/ontology/writer>
+
+ The hyponymy relation indicates a word of more specific meaning than a general or superordinate term applicable to it.
+
+We used the “hyponym of” relationship to connect Cervantes and writer, given that the two concepts are linked according to this kind of association.
+
+
+
+owl:sameAs <https://viaf.org/viaf/17220427/>
+
+sameAs relation is used for mapping the same concepts from two or more datasets, where each of these concepts can have different features and relations to other concepts.
+
+We apply this relationship to show that both the URIs reflect the same entity.
+
+
+
+owl:differentFrom: <https://viaf.org/viaf/88802677/>
+
+An owl:differentFrom statement indicates that two URIs references refer to different individuals.
+
+In our case, the two URIs identify two different people, Miguel de Cervantes and Gaspar Cervantes de Gaete, different individuals who share the same name.
+
+ 
+
+2.   Place - La Mancha:  https://donlodlam.github.io/la%20mancha%20code.tt
+
+ 
+
+wl:sameAs <http://it.dbpedia.org/resource/La_Mancia/html/>;
+
+ sameAs is used for mapping the same concepts from two or more datasets, where each of these concepts can have different features and relations to other concepts. Here both URIs refers to the same place: La Mancha.
+
+ 
+
+owl:sameAs <https://www.wikidata.org/wiki/Q844209>
+
+sameAs is used for mapping the same concepts from two or more datasets, where each of these concepts can have different features and relations to other concepts.  Here both URIs refers to the same place: La Mancha.
+
+ 
+
+owl:differentFrom <http://www.geonames.org/4204238/la-mancha.html>
+
+ An owl:differentFrom statement indicates that two URI references refer to different concepts. In our case, the two URIs identify two different places called in the same way, but one is in Spain whereas the other is in America.  
+
+ 
+
+wn:meronymOf <http://dbpedia.org/page/Spain>
+
+A wn:Meronymof statement states that the URI we made and   “http://dbpedia.org/page/Spain”  share a relationship of meronymy. As a matter of fact, is La Mancha is part of Spain.
+
+ 3.  Concept: Journey for Justice:
+
+ 
+
+owl:differentFrom <https://g.co/kgs/XsxHoK>
+
+An owl:differentFrom statement indicates that two URI references refer to different concepts. In our case, the two URIs identify two different entities that share the same denomination: the label we chose to describe our concept corresponds exactly to the title of a book, but, they are not the name thing.
 			</section>
 		</div>
 	</body>
